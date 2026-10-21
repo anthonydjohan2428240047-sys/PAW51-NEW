@@ -1,0 +1,11 @@
+$kind: http-request
+url: "{{BASE_URL}}/fakultas/6abd0809f4fdb039efb1fea5"
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\" : \"FIKR-UPDATE\"\r
+
+    }"
+order: 4000

@@ -1,0 +1,11 @@
+$kind: http-request
+url: "{{BASE_URL}}fakultas"
+method: DELETE
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Sistem Informasi\"\r
+
+    }"
+order: 5000

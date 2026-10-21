@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{BASE_URL}}/prodi"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"kode\" : \"SI\",\r
+
+    \    \"nama_prodi\": \"Sistem Informasi\",\r
+
+    \    \"fakultas_id\": \"6abd0817f4fdb039efb1fea6\"\r
+
+    }"
+order: 1000

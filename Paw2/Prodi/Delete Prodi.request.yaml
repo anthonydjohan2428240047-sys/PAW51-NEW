@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{BASE_URL}}/prodi/6ac8cc741a52302a16e93108"
+method: DELETE
+order: 4000
